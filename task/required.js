@@ -1,0 +1,1 @@
+console.log('此时你已经加载了JS')

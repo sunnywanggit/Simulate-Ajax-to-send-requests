@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Ajax</title>
+  </head>
+  <body>
+    <h1>Ajax</h1>
+    <div class="css">
+      <button id="getCSS">获取CSS</button>
+      <p class="red">当我获取CSS的时候，我的字体颜色就会变成红色</p>
+    </div>
+    <div class="js">
+      <button id="getJS">获取JS</button>
+      <p>当我获取JS的时候，控制台会弹出“此时你已经加载了JS"</p>
+    </div>
+    <div id="requiredHTML">
+      <button id="getHTML">获取HTML</button>
+    </div>
+    <div id="requiredXML">
+      <button id="getXML">获取XML</button>
+    </div>
+    <div id="requiredJSON">
+      <button id="getJSON">获取JSON</button>
+      <p>当我获取JSON的时候，控制台会打出true</p>
+    </div>
+
+    <div id="requiredPAGE">
+      <button id="getPAGE1">加载分页</button>
+      {{page1}}
+    </div>
+
+    <script src="main.js"></script>
+    <script src="server.js"></script>
+  </body>
+</html>
